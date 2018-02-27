@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+body {
+  background: linear-gradient(to right, #91a6bc, #5e7791);
+  color: #aeb6be;
+  font-family: "Josefin Sans", sans-serif; }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.contactForm input {
+  margin: 30px 8px;
+  border: 2px solid black;
+  text-align: center; }
+.contactForm button {
+  background-color: #293951;
+  color: white;
+  border: 2px solid #293951;
+  border-radius: 30px; }
+
+img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px; }
+
+.contactList {
+  padding: 0;
+  margin: 0;
+  width: 90vw; }
+  .contactList .contactItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    padding: 30px;
+    width: 230px;
+    border: 3px solid #526a91; }
+    .contactList .contactItem .contactText {
+      padding: 5px;
+      color: #2c4451;
+      font-weight: bold; }
+    .contactList .contactItem a {
+      text-decoration: none;
+      color: #aeb6be; }
+
+/*# sourceMappingURL=styles.css.map */
